@@ -35583,25 +35583,25 @@ html .page .group-md-1 > *, html .page .group-md-1 > *:first-child {
 
 @media (min-width: 992px) {
 	.section-sm {
-		padding: 60px 0;
+		padding: 50px 20px;
 	}
 	.section-md {
-		padding: 95px 0;
+		padding: 50px 30px;
 	}
 	.section-md-alternate {
-		padding-bottom: 60px;
+		padding-bottom: 50px;
 	}
 	.section-md-top {
-		padding-top: 95px;
+		padding-top: 50px;
 	}
 	.section-md-bottom {
-		padding-bottom: 95px;
+		padding-bottom: 50px;
 	}
 	.section-lg {
-		padding: 100px 0;
+		padding: 65px 40px;
 	}
 	.section-xl {
-		padding: 130px 0;
+		padding: 100px 55px;
 	}
 }
 
