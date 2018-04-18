@@ -1,38 +1,5 @@
-
-<!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
-<head><title>Leadership Foundation</title>
-	<meta name="format-detection" content="telephone=no">
-	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta charset="utf-8">
-	<link rel="icon" href="Web_Resources_Logos/favicon-16x16.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/loader.css">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<!--[if lt IE 10]>
-	<div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;">
-		<a href="https://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a>
-	</div>
-	
-	<script src="js/html5shiv.min.js"></script><![endif]-->
-	<style>
-		.pre-footer-default a{
-			color:black;
-		}
-		.thumbnail-modern a{
-			color: white;
-		}
-	</style>
-</head>
-	
-<body>
-	
-	
-	<section class="pre-footer-default novi-background bg-cover text-center text-sm-left">
-		<div class="shell">
+<section class="pre-footer-default novi-background bg-cover bg-gray-light text-center text-sm-left">
+		<div class="shell ">
 			<div class="range range-sm-center spacing-55">
 				<div class="cell-sm-12 cell-md-4">
 					<div >
@@ -95,8 +62,8 @@
 					
 				</div>
 				<div class="cell-sm-4 cell-md-2">
-                    <div class="brand-sm"><h4>Our Works</h4></div>
-					
+						<div class="brand-sm"><h4>Our Works</h4></div>
+				
 					<ul>
 						<li>
 							<a href="#"  >Student Activity Center</a>
@@ -168,11 +135,60 @@
 			</div>
 		</div>
 	</footer>
-
+</div>
 <!-- coded by Himic -->
 <div class="snackbars" id="form-output-global"></div>
 
+<script>
+	$(document).ready(function() {
+  var counter = 0;
 
+  // Start the changing images
+  setInterval(function() {
+    if(counter == 9) { 
+      counter = 0; 
+    }
+
+    changeImage(counter);
+    counter++;
+  }, 3000);
+
+  // Set the percentage off
+  loading();
+});
+
+function changeImage(counter) {
+  var images = [
+	'<img src="images/Leadership Logo.png" alt="" >',
+    '<i class="fa fa-gamepad"></i>',
+    '<i class="fa fa-headphones"></i>',
+    '<i class="fa fa-cubes"></i>',
+    '<i class="fa fa-paw"></i>',
+    '<i class="fa fa-rocket"></i>',
+    '<i class="fa fa-ticket"></i>',
+    '<i class="fa fa-pie-chart"></i>',
+    '<i class="fa fa-codepen"></i>'
+  ];
+
+  $(".loader .image").html(""+ images[counter] +"");
+}
+
+function loading(){
+  var num = 0;
+
+  for(i=0; i<=100; i++) {
+    setTimeout(function() { 
+      $('.loader span').html(num+'%');
+
+      if(num == 100) {
+        loading();
+      }
+      num++;
+    },i*120);
+  };
+
+}
+</script>
 <script src="js/core.min.js"></script>
 <script src="js/script.js"></script>
 </html>

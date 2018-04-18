@@ -18,13 +18,13 @@
 <div class="container" style="background-color:#f7f7f7">
 <center><h4 style="margin-top:30px;">Leadership Board Members</h4>
 <ul class="nav nav-tab" style="display:flex;justify-content:center;">
-  <li class="active"><a href="#home">Board Of Directors</a></li>
+  <li class="active"><a href="#menu0">Board Of Directors</a></li>
   <li><a href="#menu1">Operations Team</a></li>
   <li><a href="#menu2">Advisory Board</a></li>
 </ul>
 
 <div class="tab-content">
-  <div id="home" class="tab-pane fade in active">
+  <div id="menu0" class="tab-pane fade in active">
   <div class="container" >
     <div class="row">
         <div class="col-sm-6">
