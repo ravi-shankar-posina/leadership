@@ -31,9 +31,7 @@
 	</style>
 </head>
 	
-<body>
-	<div class="page">
-	
+<body>	
 	<header class="page-header" id="home" data-type="anchor">
 		<div class="rd-navbar-wrap">
 			<nav class="rd-navbar rd-navbar-transparent" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-static" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" data-lg-layout="rd-navbar-static" data-body-class="rd-navbar-absolute-linked swiper-jumbotron-mod" data-stick-up-clone="false" data-md-stick-up-offset="72px" data-lg-stick-up-offset="72px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true">
@@ -82,7 +80,7 @@
 		
 		
 	</header>
-	</div>
+	
 
 <!-- coded by Himic -->
 

@@ -1,5 +1,5 @@
 <div class="banr">
-        <img src="../images/clubs/webapps.jpg" width="100%" height="600px;" alt="">
+        <img src="images/about.jpg" width="100%" height="650px;" alt="">
     </div>  
     <div class="section-md novi-background bg-cover bg-gray-light">
         <div class="shell-fluid text-center">
@@ -19,7 +19,7 @@ LEADERSHIP is a program that is developed for the students in view of enhancing 
     </div>
     <div class="section-md novi-background bg-cover text-center">
         <div class="shell-fluid shell-custom-width">
-        <h4 class="text'left">Voisin</h4>
+        <h4 class="text'left">Vision</h4>
             <div class="range range-sm-center spacing-30">
             <div class="cell-lg-3 text-center">
                     <img src="images/vision.png" width="200px" height="100px" alt="">
