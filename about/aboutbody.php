@@ -19,18 +19,24 @@ LEADERSHIP is a program that is developed for the students in view of enhancing 
     </div>
     <div class="section-md novi-background bg-cover text-center">
         <div class="shell-fluid shell-custom-width">
-        
+        <h4 class="text'left">Voisin</h4>
             <div class="range range-sm-center spacing-30">
-                <h4 class="texr-left">VISION</h4>        
-				<div class="cell-sm-12 text-left">
-                    <ol type="1">
-                        <li><p>Describe differences in renderings of pages based on different browser versions and versions of HTML they support, and portability techniques for designing a site that works well for multiple browsers and screen resolutions.</p></li>
-                        <li><p>Describe ways to design pages to load fast for users with limited bandwidth and to test loading speed.</p></li>
-                        <li><p>Describe principles of visual and graphic design, including page layout, navigation elements, typography, colour palettes and schemes, and image size, type and resolution.</p></li>
-                        <li><p>	Describe how writing for the web should differ from writing for printed publications.</p></li>
-                        <li><p>	Describe the importance of evaluation and testing and ways to evaluate website effectiveness.</p></li>
-                        <li><p>Choose best technologies for solving web client/server problems</p></li>
-                    </ol>
+            <div class="cell-lg-3 text-center">
+                    <img src="images/vision.png" width="200px" height="100px" alt="">
+                </div>
+                <div class="cell-lg-9  text-left">    
+                    <p style="margin-top:20px;">
+                    TO PRODUCE EFFICIENT LEADERS WITH THE REQUISITE SKILLS WHO CAN MAKE A SIGNIFICANT CONTRIBUTION TO THE SOCIETY THROUGH THE APPLICATION OF THEIR KNOWLEDGE IN DIFFERENT DOMAINS.</p>
+                </div>
+            </div>
+        <h4 class="">MISSION</h4>            
+        <div class="range range-sm-center spacing-30">
+            <div class="cell-lg-3 text-center">
+                    <img src="images/mission.jpg" width="200px" height="100px" alt="">
+                </div>
+                <div class="cell-lg-9  text-left">    
+                    <p style="margin-top:20px;">
+                    OUR MISSION SIMPLY..."PURSUIT OF EXCELLENCE IN THE INDIAN EDUCATION SYSTEM THROUGH INNOVATION."</p>
                 </div>
             </div>
         </div>
