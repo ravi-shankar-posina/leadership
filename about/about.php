@@ -15,6 +15,7 @@
 ?>  
 <?php
 include "aboutbody.php";
+include "aboutboard.php";
 ?>
 <?php
     include "footer.php";
